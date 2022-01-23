@@ -1,0 +1,22 @@
+Algoritmo "calculador de media com desvios condicionais"
+Var
+nota1, nota2, nota3, nota4, media : real
+aluno : caracter
+Inicio
+escreval ("Digite o seu nome: ")
+leia(aluno)
+escreval ("Digite a nota do primeiro semestre: ")
+leia(nota1)
+escreval ("Digite a nota do segundo semestre:")
+leia(nota2)
+escreval ("Digite a nota do terceiro semestre:")
+leia(nota3)
+escreval ("Digite a nota do quarto semestre:")
+leia(nota4)
+media<-(nota1+nota2+nota3+nota4)/4
+se (media>=7) entao
+   escreval ("Parabéns!!! você foi aprovado, Sua média é: ", media)
+senao
+   escreval ("Que pena, você foi reprovado, Sua média foi: ", media)
+fimse
+Fimalgoritmo
