@@ -1,0 +1,23 @@
+Algoritmo "escolha-caso"
+Var
+menu : inteiro
+aluno : caracter
+Inicio
+menu <- 0
+escreval ("Digite 1 para abrir Netflix ")
+escreval ("Digite 2 para abrir HBO GO ")
+escreval ("Digite 3 para abrir Amazon Prime ")
+escreval ("Digite 4 para abrir DIsney ")
+escreval ("Digite a sua escolha: ")
+leia (menu)
+escolha menu
+caso  1
+escreval("Entendido, abrindo Netflix")
+caso  2
+escreval("Entendido, abrindo HBO GO")
+caso  3
+   escreval("Entendido, abrindo Amazon Prime")
+caso  4
+escreval("Entendido, abrindo Disney")
+fimescolha
+Fimalgoritmo
